@@ -16,8 +16,8 @@ data:
           location / {
             root   /usr/share/nginx/html;
             index  index.html index.htm;
-            auth_basic            "Admin Area";
-            auth_basic_user_file  "/etc/nginx/secret/htpasswd";
+            auth_basic            "passwd user1";
+            auth_basic_user_file  "/etc/nginx/secret/nginx-passwd";
           }
       }
     }
